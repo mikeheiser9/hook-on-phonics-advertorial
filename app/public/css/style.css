@@ -155,8 +155,8 @@ background-color: whitesmoke !important;
     font-size: 28px;
     font-weight: 800;
     margin-top: 40px;
-    margin-left: 68px;
     color: purple;
+    font-family: 'Short Stack', cursive;
 }
 
 .inner-links {
@@ -166,12 +166,18 @@ background-color: whitesmoke !important;
 
 .action-btn {
     color: white;
-    background-color: red;
+    background-color: lightblue;
     padding: 24px;
     margin-left: 425px;
     border-radius: 15px;
     width: 25%;
     margin-top: 30px;
+    font-family: 'Short Stack', cursive;
+    font-size: 30px;
+}
+.action-btn:hover {
+    background-color: red;
+    cursor: pointer;
 }
 
 .mid-btn:hover {
