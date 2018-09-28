@@ -121,7 +121,7 @@ background-color: whitesmoke !important;
 }
 
 .image-font {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: rgba(0,0,0,0.5);
     letter-spacing: 1px;
     margin-top: 20px;
@@ -148,6 +148,10 @@ background-color: whitesmoke !important;
     color: white;
     padding: 10px;
     border-radius: 9px;
+}
+.mid-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .above-btn {
@@ -177,6 +181,12 @@ background-color: whitesmoke !important;
 }
 .action-btn:hover {
     background-color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mid-container:hover {
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -258,3 +268,293 @@ background-color: whitesmoke !important;
     margin-top: 20px;
     margin-left: -30px;
 }
+
+#para3 {
+    margin-top: 35px;
+}
+
+@media (max-width:1280px) {
+    #logo {
+        margin-left: 8%;
+        width: 4%;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width:1200px) {
+    .ad-tag {
+        margin-left: 800px;
+    }
+    .action-btn {
+        margin-left: 275px;
+        width: 40%;
+    }
+    .image-font {
+        font-size: 1.7vw;
+    }
+}
+
+@media (max-width:1080px) {
+    #logo {
+        margin-left: 8%;
+        width: 5%;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width:992px) {
+    .article-container {
+        width: 130%;
+        margin-left: -15%;
+    }
+
+}
+
+@media (max-width:940px) {
+    .article-container {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    .ad-tag {
+        margin-left: 700px;
+    }
+    .image-font {
+        font-size: 2vw;
+    }
+    .action-btn {
+        margin-left: 250px;
+    }
+
+    #title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4vw;
+    }
+
+}
+
+@media (max-width:880px) {
+    .article-container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .ad-tag {
+        margin-left: 580px;
+    }
+    .image-font {
+        font-size: 2.5vw;
+        margin-top: 0;
+    }
+    #title {
+        font-size: 4.5vw;
+    }
+    .top-img {
+        width: 100%;
+        margin-left: 0;
+    }
+    #para3 {
+        margin-top: 0;
+    }
+    .action-btn {
+        margin-left: 30%;
+    }
+
+    #num4 {
+        margin-top: 40px;
+    }
+    #logo {
+        margin-left: 7%;
+        width: 6%;
+        margin-top: 16px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .action-btn {
+        width: 100%;
+        margin-left: 0;
+    } 
+    .ad-tag {
+        margin-left: 55%;
+    }
+    #num4 {
+        margin-top: 35px;
+    }
+    #header {
+        width: 105vw !important;
+    }
+    .ad-tag {
+        margin-left: 77%;
+    }
+}
+
+@media (max-width:680px) {
+    .ad-tag {
+        margin-left: 62%;
+    }
+    #logo {
+        margin-left: 5%;
+        width: 7%;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width:640px) {
+    .image-font {
+        font-size: 3.5vw;
+    }
+    #title {
+        font-size: 5vw;
+    }
+    #num5 {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:580px) {
+    .company-name {
+        margin-left: 16%;
+        margin-top: -7px;
+    }
+}
+
+@media (max-width:520px) {
+    .company-name {
+        margin-left: 16%;
+        margin-top: -7px;
+    }
+    #logo {
+        width: 9%
+    }
+}
+
+
+@media (max-width:464px) {
+    #num2 {
+        margin-top: 20px;
+    }
+    #num4 {
+        margin-top: 65px;
+        height: 20%;
+    }
+    #title {
+        font-size: 7vw;
+    }
+    .company-name {
+        font-size: 25px;
+    }
+    .ad-tag {
+        margin-left: 70%;
+    }
+    .image-font {
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 414px) {
+    #footer {
+        width: 105%;
+    }
+    .footer-text {
+        margin-left: -15px;
+    }
+    #header {
+        width: 108vw !important;
+    }
+    .big-letter {
+        font-size: 18vw;
+    }
+    #num1 {
+        margin-top: 0;
+    }
+    #num3 {
+        margin-top: -5px;
+    }
+    #num5 {
+        margin-top: 29px;
+    }
+}
+
+@media (max-width:375px) {
+    #num1 {
+        margin-top: 20px;
+    }
+    #num2 {
+        margin-top: 38px;
+        height: 18%;
+    }
+    #num4 {
+        height: 21%;
+        margin-top: 80px;
+    }
+    .ad-tag {
+        margin-left: 66%;
+    }
+    #logo {
+        width: 13%;
+        margin-top: 11px;
+        margin-left: 8%;
+    }
+    .company-name {
+        font-size: 24px;
+        margin-left: 24%;
+    }
+}
+
+@media (max-width:360px) {
+    #header {
+        width: 108vw !important;
+    }
+    .ad-tag {
+        margin-left: 66%;
+    }
+    #num1 {
+        height: 16%;
+    }
+    .big-letter {
+        font-size: 20vw;
+    }
+    #num2 {
+        height: 30%;
+    }
+    #num3 {
+        margin-top: -6px;
+    }
+    #num4 {
+        margin-top: 115px;
+        height: 20%;
+    }
+    #num5 {
+        margin-top: 30px;
+    }
+    .mid-img {
+        margin-top: 50px;
+    }
+    .mid-container {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:320px) {
+    #logo {
+        width: 13%;
+        margin-left: 7%;
+    }
+    .company-name {
+        font-size: 18px;
+        margin-left: 22%;
+    }
+    .ad-tag {
+        margin-left: 62%;
+    }
+    #num2 {
+        height: 33%;
+        margin-top: 57px;
+    }
+    #num4 {
+        height: 26%;
+    }
+
+}
+
